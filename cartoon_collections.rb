@@ -57,7 +57,7 @@ def find_the_cheese(arr)
     if arr.include? cheese_types[i]===true
       return arr
       i += 1 
-    end 
+    else 
     nil 
   end 
 end
